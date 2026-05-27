@@ -1,49 +1,28 @@
-# Operational Investigation Examples
+# Investigation Examples
 
-Example operational investigation scenarios focused on backend systems, observability challenges, debugging workflows, and engineering bottlenecks.
+Collection of lightweight operational investigation examples focused on backend systems, debugging workflows, observability gaps, and engineering bottlenecks.
 
 ## Current Examples
 
-* [Cache Miss Amplification Under Peak Usage](examples/cache-miss-amplification.md)
+- Cache Miss Pressure Amplification  
+  Investigation of cache invalidation behavior causing temporary database pressure amplification and latency instability under burst traffic.
 
-## Purpose
+## Focus Areas
 
-This repository contains lightweight investigation-oriented examples exploring scenarios such as:
+Examples may explore topics such as:
 
-* API latency spikes
-* Cache effectiveness degradation
-* Database pressure amplification
-* Background job bottlenecks
-* Deployment reliability concerns
-* Observability gaps
-* Workflow instability patterns
+- backend latency investigations
+- observability limitations
+- deployment reliability concerns
+- cache coordination issues
+- workflow bottlenecks
+- debugging friction
+- operational scaling risks
 
-The focus is on:
-
-* investigation clarity
-* operational reasoning
-* bottleneck identification
-* low-risk improvement prioritization
+The emphasis is intentionally placed on:
+- operational reasoning
+- investigation clarity
+- practical prioritization
+- low-risk improvements
 
 rather than large-scale architectural redesigns.
-
-## Intended Direction
-
-Examples may include:
-
-* investigation summaries
-* operational observations
-* metrics interpretation
-* bottleneck analysis
-* prioritization reasoning
-* implementation tradeoff discussions
-
-## Important Note
-
-These examples are intentionally investigation-oriented and educational in nature.
-
-They are not presented as real client engagements, production incidents, or guaranteed optimization outcomes.
-
-## Status
-
-Early-stage repository under active development.
