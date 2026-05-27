@@ -1,6 +1,10 @@
-# Backend Investigation Examples
+# Operational Investigation Examples
 
 Example operational investigation scenarios focused on backend systems, observability challenges, debugging workflows, and engineering bottlenecks.
+
+## Current Examples
+
+* [Cache Miss Amplification Under Peak Usage](examples/cache-miss-amplification.md)
 
 ## Purpose
 
@@ -33,6 +37,12 @@ Examples may include:
 * bottleneck analysis
 * prioritization reasoning
 * implementation tradeoff discussions
+
+## Important Note
+
+These examples are intentionally investigation-oriented and educational in nature.
+
+They are not presented as real client engagements, production incidents, or guaranteed optimization outcomes.
 
 ## Status
 
